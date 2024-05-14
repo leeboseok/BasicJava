@@ -1,0 +1,27 @@
+package exam;
+
+import java.util.Scanner;
+
+public class Sample2 {
+	public static void main(String[] args) {
+		Student s=new Student("이보석",40);
+		System.out.println(s.name);
+		
+		
+	}//main end
+}//class end
+
+class Student{
+	String name;
+	int mathGrade;
+	int englishGrade;
+	int koreanGrade;
+	
+	Student(String str, int m){
+		name=str;
+		mathGrade=m;
+		System.out.println("이름: "+"name"+"\t"+"수학: "+mathGrade+"\t"+"영어: "+englishGrade+"\t"+"국어: "+koreanGrade);
+	}
+	
+
+}//class end

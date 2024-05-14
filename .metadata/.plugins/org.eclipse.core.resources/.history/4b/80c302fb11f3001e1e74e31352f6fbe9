@@ -1,0 +1,19 @@
+package exam;
+
+public class Sample2 {
+	public static void main(String[] args) {
+		Student s=new Student();
+		
+	}
+}
+
+class Student{
+	int name;
+	int mathGrade;
+	int englishGrade;
+	int koreanGrade;
+	
+	Student(){
+		System.out.println("이름: "+"name"+"\t"+"수학: "+mathGrade+"\t"+"영어: "+englishGrade);
+	}
+}
